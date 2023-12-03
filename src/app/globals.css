@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sanchez:wght@400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --background: #202020 ;
+  --primary: #FFFFFF;
+  --secondary: #202020;
+  --third: #FFFFFF;
+}
+
+.border-radius {
+  border-radius:30% 70% 70% 30% / 30% 30% 70% 70%
+}
+.shape-style-2 {
+  background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+  animation: morph 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  height: 15rem;
+  transition: all 1s ease-in-out;
+  width: 15rem;
+  z-index: 5;
+}
+.shape-style {
+  background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+  animation: morph 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  height: 25rem;
+  transition: all 1s ease-in-out;
+  width: 25rem;
+  z-index: 5;
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    background: linear-gradient(45deg, var(--third) 0%, var(--secondary) 100%);
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+  }
+}
+
+.bg-w {
+  background-color: #cabfbf20
+} 
+.bg-b {
+  background-color: #202020
+} 
+.bg-b-t {
+  color: #FFFFFF
+} 
+ 
+
+.body {
+  @apply leading-[normal] m-0;
+}
+
+*,
+::before,
+::after {
+  border-width: 0;
+}
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+
