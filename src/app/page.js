@@ -4,7 +4,7 @@ import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Team from "./Components/Team";
 import Footer from "./Components/Footer";
-import FAQ from "./Components/FAQ";
+import Faq from "./Components/FAQ";
 import Damo from "./Components/Damo";
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
       <About />
       <Team />
       <Damo />
-      <FAQ />
+      <Faq />
       <Footer />
     </div>
   );

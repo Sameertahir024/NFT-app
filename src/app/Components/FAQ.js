@@ -2,7 +2,7 @@
 import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/20/solid";
 
-export default function Example() {
+export default function Faq() {
   return (
     <div id="FAQ" className="grid md:grid-cols-2 py-24  ">
       <div className="text-center md:text-start p-6 px-16  ">
