@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="flex flex-col md:grid grid-cols-2 place-content-center justify-items-center md:grid-flow-row-dense gap-3 md:h-[calc(100vh-5.5rem)] items-center justify-center md:max-w-[65.5rem] mx-auto pt-5 p-4">
         <div className="flex md:hidden bg-[#f9f7f7]  shape-style-2 ">
           <Image
-            src="/./assets/Home GIF.gif"
+            src="/assets/Home GIF.gif"
             width={300}
             height={500}
             alt="Picture of the author"
