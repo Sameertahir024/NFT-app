@@ -11,12 +11,11 @@ const Footer = () => {
             Join our team
           </h1>
           <p className="text-[#FFF] font-[Roboto] text-lg not-italic font-semibold leading-[150%]">
-            we will send you update once a week{" "}
+            we will send you update once a week
           </p>
         </div>
         <div className="mt-5 md:mt-10">
           <Image
-            className=""
             src="/./assets/NFTS/Maps.png"
             width={300}
             height={1}
@@ -98,7 +97,7 @@ const Footer = () => {
       <div>
         <div className="flex items-center justify-center mt-4">
           <h1 className="text-[#FFF] font-[Inter] text-xl not-italic font-normal leading-[150%]">
-            Copyright @2023
+            Copyright 2023
           </h1>
         </div>
       </div>
